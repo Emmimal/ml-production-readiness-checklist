@@ -29,10 +29,32 @@ The article covers all 50; this repo automates the 20 that a script can actually
 ```
 .
 ├── checker/
-│   └── readiness_checker.py      # the scanner — no third-party dependencies
+│   └── readiness_checker.py
 ├── sample_repos/
-│   ├── ready_project/            # built to pass the checklist (19/20)
-│   └── legacy_project/           # a typical pre-checklist repo (1/20)
+│   ├── ready_project/
+│   │   ├── Dockerfile
+│   │   ├── requirements.txt
+│   │   ├── schema.py
+│   │   ├── train.py
+│   │   ├── serve.py
+│   │   ├── monitor.py
+│   │   ├── retrain_trigger.py
+│   │   ├── model_card.md
+│   │   ├── registry.yaml
+│   │   ├── architecture.md
+│   │   ├── ROLLBACK.md
+│   │   ├── README.md
+│   │   ├── features.csv.dvc
+│   │   ├── tests/
+│   │   │   ├── test_data.py
+│   │   │   └── test_model.py
+│   │   └── .github/workflows/ci.yml
+│   └── legacy_project/
+│       ├── Dockerfile
+│       ├── requirements.txt
+│       ├── app.py
+│       ├── train_model.py
+│       └── README.md
 ├── LICENSE
 └── README.md
 ```
