@@ -1,6 +1,6 @@
 # ml-production-readiness-checklist
 
-Companion code for **"ML Production Readiness Checklist: 50 Things to Verify Before You Ship"**
+Companion code for **[ML Production Readiness Checklist: 50 Things to Verify Before You Ship](https://emitechlogic.com/ml-production-readiness-checklist-50-things-to-verify-before-you-ship/)**
 — Article 15 (final) of the [Production ML Engineering series](https://emitechlogic.com/machine-learning-production-pipeline/) on [EmiTechLogic](https://emitechlogic.com).
 
 A dependency-free static scanner that checks 20 of the 50 checklist items directly
