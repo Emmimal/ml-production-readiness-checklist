@@ -135,7 +135,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## Related
 
-- [Article 15: ML Production Readiness Checklist](https://emitechlogic.com/ml-production-readiness-checklist/) (this repo's companion article)
+- [Article 15: ML Production Readiness Checklist](https://emitechlogic.com/ml-production-readiness-checklist-50-things-to-verify-before-you-ship/) (this repo's companion article)
 - [Article 14: ML Technical Debt](https://emitechlogic.com/ml-technical-debt-how-to-identify-measure-and-pay-it-down/) (source of the undeclared-consumer auditor reused in item 40)
 - [Article 11: Shadow Deployment and Canary Testing](https://emitechlogic.com/shadow-deployment-and-canary-testing-for-machine-learning-models-a-practical-guide/)
 - [Article 12: Debugging ML Inference Latency](https://emitechlogic.com/debug-ml-inference-latency/)
